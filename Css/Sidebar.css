@@ -1,0 +1,10 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 56px;
+  bottom: 0px;
+  left: 0px;
+  background-color: lightblue;
+  width: 70px;
+}
