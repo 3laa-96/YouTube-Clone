@@ -4,11 +4,13 @@
   column-gap: 16px;
   row-gap: 65px;
 
+
 }
 
 .Video-Container {
   display: grid;
   grid-template-rows: auto 1fr;
+
 }
 
 .Thumbnail {
@@ -19,6 +21,7 @@
   display: grid;
   grid-template-columns: 48px 1fr;
   padding-top: 8px;
+
 }
 
 .Channel-Picture {
