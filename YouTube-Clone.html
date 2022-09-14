@@ -22,8 +22,14 @@
     <div class="header">
 
         <div class="Header-Left-Section">
-            <img class="Icons" src="Icons\hamburger-menu.svg">
-            <img class="YouTube-Icon" src="Icons/youtube-logo.svg">
+            <div class="Icons-Container">
+                <img class="Icons" src="Icons\hamburger-menu.svg">
+            </div>
+            <div class="Icons-Container">
+                <a href="https://www.youtube.com/">
+                    <img class="YouTube-Icon" src="Icons/youtube-logo.svg">
+                </a>
+            </div>
         </div>
 
 
@@ -31,24 +37,68 @@
             <input class="Search-Bar" type="text" placeholder="Search">
             <button class="Search-Button">
                 <img class="Icons" src="icons/search.svg">
+                <div class="Tooltip">Search</div>
             </button>
+
             <button class="Voice-Search-Button">
                 <img class="Icons" src="Icons/voice-search-icon.svg">
+                <div class="Tooltip">Search with your voice</div>
             </button>
+
         </div>
 
+
         <div class="Header-Right-Section">
-            <img class="Icons" src="Icons/upload.svg">
-            <img class="Icons" src="Icons/youtube-apps.svg">
-            <img class="Icons" src="Icons/notifications.svg">
-            <img class="User-Channel-Picture" src="Icons/my-channel.jpeg">
+            <div class="Icons-Container">
+                <img class="Icons" src="Icons/upload.svg">
+                <div class="Tooltip">Create</div>
+            </div>
+            <div class="Icons-Container">
+                <img class="Icons" src="Icons/youtube-apps.svg">
+                <div class="Tooltip">YouTube apps</div>
+            </div>
+
+            <div class="Icons-Container">
+                <img class="Icons" src="Icons/notifications.svg">
+                <div class="Notification-Count">3</div>
+                <div class="Tooltip">Notifications</div>
+            </div>
+            <div class="Icons-Container">
+                <img class="User-Channel-Picture" src="Icons/my-channel.jpeg">
+            </div>
+
         </div>
     </div>
 
 
 
 
-    <div class="Sidebar">SideBar</div>
+    <div class="Sidebar">
+        <div class="Sidebar-Box">
+            <img class="Sidebar-Icons" src="Icons/home.svg">
+            <p>Home</p>
+        </div>
+        <div class="Sidebar-Box">
+            <img class="Sidebar-Icons" src="Icons/explore.svg">
+            <p>Explore</p>
+        </div>
+        <div class="Sidebar-Box">
+            <img class="Sidebar-Icons" src="Icons/subscriptions.svg">
+            <p>Subscriptions</p>
+        </div>
+        <div class="Sidebar-Box">
+            <img class="Sidebar-Icons" src="Icons/originals.svg">
+            <p>Originals</p>
+        </div>
+        <div class="Sidebar-Box">
+            <img class="Sidebar-Icons" src="Icons/youtube-music.svg">
+            <p>YouTube Music</p>
+        </div>
+        <div class="Sidebar-Box">
+            <img class="Sidebar-Icons" src="Icons/library.svg">
+            <p>Library</p>
+        </div>
+    </div>
 
 
 
@@ -133,7 +183,7 @@
                     </p>
                     <p class="Video-Creator">
                         <a class="Video-Creator-Link" href="https://www.youtube.com/user/SSSniperWolf">
-                            SSSniperWol</a>
+                            SSSniperWolf</a>
                     </p>
                     <p class="Video-Views">12M views · 1 year ago</p>
                 </div>
