@@ -88,6 +88,14 @@
   border-radius: 2px;
   margin-left: -16px;
   box-shadow: inset 0px 1px 2px rgb(238, 238, 238);
+
+}
+
+.Search-Bar:focus {
+  color: black;
+  border: 1px solid blue !important;
+  outline: none !important;
+  border-radius: 2px;
 }
 
 .Search-Button {
@@ -98,7 +106,7 @@
   padding-left: 18px;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 2px;
-  margin-left: -2px;
+  border-left: none;
   cursor: pointer;
 }
 

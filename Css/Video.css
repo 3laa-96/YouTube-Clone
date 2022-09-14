@@ -10,6 +10,7 @@
 .Video-Container {
   display: grid;
   grid-template-rows: auto 1fr;
+  min-width: 264px;
 
 }
 
@@ -51,8 +52,8 @@
 
 .Video-Duration {
   position: absolute;
-  background-color: black;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.836);
+  color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 12px;
   padding-top: 4px;
